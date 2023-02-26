@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Reddead;
+}
+
+@font-face {
+    font-family: RedDead;
+    src: url('../Font/red-dead-redemption/CHINESER.TTF');
+}
+
+body{
+    background-color: #ededed;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+span {
+    font-weight: bold;
+    color:#e40200;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+#number{
+    font-size: 5rem;
+}
+
+#numbers {
+    margin: 50px;
+}
+
+#btn-numbers {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+#btn1{
+    background-color: #e40200;
+}
+
+#btn2{
+    background-color: #90ee90;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 5px solid #cccccc;
+    transition: 1s;
+}
+
+.btn:hover {
+    border: 5px solid #010000;
+}
+
+#reset {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    color: #000;
+    background-color: #cccccc;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+#form label {
+    font-size: 2rem;
+}
+
+#input-number{
+    margin: 10px 0 10px 0;
+    padding: 5px;
+}
+
+#send {
+    height: 25px;
+    background-color:#cccccc ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rules {
+    width: 500px;
+    letter-spacing: px;
+}
+

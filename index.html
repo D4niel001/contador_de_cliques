@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Contador de cliques</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contador Numérico</h1>
+        <div id="numbers">
+            <div id="number">000000</div>
+        </div>
+        <div id="btn-numbers">
+            <button class="btn" id="btn1">-</button>
+            <button class="btn" id="btn2">+</button>
+        </div>
+        <div id="btn-functios">
+            <button id="reset">Zerar</button>
+        </div>
+        <form id="form" action="">
+            <label for="input-number">Alterar Número</label>
+            <input id="input-number" name="number" type="number" placeholder="Digite um número">
+            <input id="send" type="submit" value="Enviar">
+        </form>
+
+        <div id="rules">
+            <ul>
+                <li>
+                    O número pode estar entre -99999 e 999999.
+                </li>
+                <li>
+                    Pode ser usado para contar pessoas, marcar ou contar cliques do mouse.
+                </li>
+                <li>
+                    O número é editável.
+                </li>
+                <li>
+                    Basta clicar para contar. Clique no botão para adicionar um e clique no botão para menos um. Botões
+                    do teclado também estão disponíveis.
+                    Pressione <span>seta para cima</span> para adicionar e <span>seta para baixo</span> para subtrair.
+                </li>
+                <li>
+                    Este é um aplicativo da web online. Nenhuma instalação é necessária.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="assets/JS/script.js"></script>
+</body>
+
+</html>
